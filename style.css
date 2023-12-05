@@ -1,0 +1,369 @@
+.primary {
+  width: 80px;
+  height: 40px;
+  background-color: #306ce4;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 15px;
+  font-weight: 400;
+}
+.primary:hover {
+  background-color: #0a53be;
+  transition: 0.3s;
+}
+.secondary {
+  width: 102px;
+  height: 40px;
+  background-color: #6c757d;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 15px;
+  font-weight: 400;
+}
+.secondary:hover {
+  background-color: #565e64;
+  transition: 0.3s;
+}
+.success {
+  width: 80px;
+  height: 40px;
+  background-color: #198754;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 15px;
+  font-weight: 400;
+}
+.success:hover {
+  background-color: #146c43;
+  transition: 0.3s;
+}
+.danger {
+  width: 80px;
+  height: 40px;
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 15px;
+  font-weight: 400;
+}
+.danger:hover {
+  background-color: #b02a37;
+  transition: 0.3s;
+}
+.warning {
+  width: 88px;
+  height: 40px;
+  background-color: #ffc107;
+  color: black;
+  border: none;
+  border-radius: 5px;
+  font-size: 15px;
+  font-weight: 400;
+}
+.warning:hover {
+  background-color: #ffca2c;
+  transition: 0.3s;
+}
+.info {
+  width: 55px;
+  height: 40px;
+  background-color: #0dcaf0;
+  color: black;
+  border: none;
+  border-radius: 5px;
+  font-size: 15px;
+  font-weight: 400;
+}
+.info:hover {
+  background-color: #31d2f2;
+  transition: 0.3s;
+}
+.light {
+  width: 60px;
+  height: 40px;
+  background-color: #f8f9fa;
+  color: black;
+  border: none;
+  border-radius: 5px;
+  font-size: 15px;
+  font-weight: 400;
+}
+.light:hover {
+  background-color: #d3d4d5;
+  transition: 0.3s;
+}
+.dark {
+  width: 60px;
+  height: 40px;
+  background-color: #212529;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 15px;
+  font-weight: 400;
+}
+.dark:hover {
+  background-color: #424649;
+  transition: 0.3s;
+}
+.link {
+  width: 60px;
+  height: 40px;
+  background-color: transparent;
+  color: blue;
+  border: none;
+  border-radius: 5px;
+  font-size: 15px;
+  font-weight: 400;
+  text-decoration: underline;
+}
+.link:hover {
+  color: #0dcaf0;
+  transition: 0.3s;
+}
+/* varient ends  */
+
+/* button tags  */
+.tag-buttons {
+  background-color: #0d6efd;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 15px;
+  font-weight: 400;
+}
+.tag-buttons:hover {
+  background-color: #0b5ed7;
+  transition: 0.3s;
+}
+
+.tag-link {
+  width: 55px;
+  height: 40px;
+}
+.button {
+  width: 75px;
+  height: 40px;
+}
+.input {
+  width: 65px;
+  height: 40px;
+}
+.submit {
+  width: 75px;
+  height: 40px;
+}
+/* button tag end  */
+
+/* outline button start  */
+.btn-outline {
+  background: none;
+  border: 2px solid;
+  border-radius: 5px;
+  font-size: 15px;
+  font-weight: 400;
+}
+.primary-outline {
+  width: 80px;
+  height: 40px;
+  background: none;
+  border: 2px solid;
+  border-radius: 5px;
+  border-color: #0d6efd;
+  color: #0d6efd;
+  font-size: 15px;
+  font-weight: 400;
+}
+.primary-outline:hover {
+  background-color: #306ce4;
+  color: white;
+  transition: 0.3s;
+}
+.secondary-outline {
+  width: 102px;
+  height: 40px;
+  /* background-color: #6c757d; */
+  background: none;
+  border: 2px solid;
+  border-radius: 5px;
+  border-color: #6c757d;
+  color: #6c757d;
+  font-size: 15px;
+  font-weight: 400;
+}
+.secondary-outline:hover {
+  background-color: #6c757d;
+  color: white;
+  transition: 0.3s;
+}
+.success-outline {
+  width: 80px;
+  height: 40px;
+  /* background-color: #198754; */
+  background: none;
+  border: 2px solid;
+  border-radius: 5px;
+  border-color: #198754;
+  color: #198754;
+  font-size: 15px;
+  font-weight: 400;
+}
+.success-outline:hover {
+  background-color: #198754;
+  color: white;
+  transition: 0.3s;
+}
+.danger-outline {
+  width: 80px;
+  height: 40px;
+  /* background-color: #dc3545; */
+  background: none;
+  border: 2px solid;
+  border-radius: 5px;
+  border-color: #dc3545;
+  color: #dc3545;
+  font-size: 15px;
+  font-weight: 400;
+}
+.danger-outline:hover {
+  background-color: #dc3545;
+  color: white;
+  transition: 0.3s;
+}
+.warning-outline {
+  width: 88px;
+  height: 40px;
+  /* background-color: #ffc107; */
+  background: none;
+  border: 2px solid;
+  border-radius: 5px;
+  border-color: #ffc107;
+  color: #ffc107;
+  font-size: 15px;
+  font-weight: 400;
+}
+.warning-outline:hover {
+  background-color: #ffc107;
+  color: black;
+  transition: 0.3s;
+}
+.info-outline {
+  width: 55px;
+  height: 40px;
+  /* background-color: #0dcaf0; */
+  background: none;
+  border: 2px solid;
+  border-radius: 5px;
+  border-color: #0dcaf0;
+  color: #0dcaf0;
+  font-size: 15px;
+  font-weight: 400;
+}
+.info-outline:hover {
+  background-color: #0dcaf0;
+  color: black;
+  transition: 0.3s;
+}
+.light-outline {
+  width: 60px;
+  height: 40px;
+  /* background-color: #f8f9fa; */
+  background: none;
+  border: 2px solid;
+  border-radius: 5px;
+  border-color: #e7e7e7;
+  color: #e7e7e7;
+  font-size: 15px;
+  font-weight: 400;
+}
+.light-outline:hover {
+  background-color: #e7e7e7;
+  color: black;
+  transition: 0.3s;
+}
+/* outline buttons end  */
+
+/* large button  */
+.large-button {
+  width: 145px;
+  height: 48px;
+  font-size: 20px;
+  border-radius: 8px;
+}
+.small-button {
+  height: 30px;
+  width: 95px;
+  font-size: 12px;
+}
+.primary-button-disabled {
+  width: 130px;
+  height: 40px;
+}
+/* Block button  */
+.blockbutton {
+  height: 40px;
+  width: 100%;
+}
+.middle-button {
+  height: 120px;
+  width: 400px;
+  margin: auto;
+}
+.mid-button {
+  height: 40px;
+  width: 380px;
+  display: inline-block;
+}
+/* toogle button  */
+.toggle-secondary {
+  width: 121px;
+}
+.toggle-secondary:focus {
+  border: none;
+  background-color: none;
+  color: black;
+}
+.toggle-active {
+  width: 170px;
+}
+.toggle-active:focus {
+  border: none;
+  background-color: none;
+  color: black;
+}
+/* menu bar  */
+.container-menu {
+  height: 100px;
+  width: 1000px;
+  margin: auto;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+  border-radius: 10px;
+}
+.container-menu ul {
+  display: flex;
+  color: white;
+  list-style: none;
+  gap: 50px;
+  font-size: 15px;
+}
+.sign-up {
+  color: white;
+}
+.container-menu h2 {
+  color: white;
+}
+
+.container-menu ul li:hover {
+  /* border: 2px solid;
+  border: 20px 20px;
+  border-color: white; */
+  color: red;
+}
